@@ -1,0 +1,185 @@
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(rgb(23, 46, 53), rgb(74, 135, 155));
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -3rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.logo {
+  font-size: 100px;
+  width: 200%;
+}
+
+.welcome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(228, 238, 194);
+  animation: 2s spin linear;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+.centerp {
+  display: flex;
+  flex-flow: nowrap;
+}
+p {
+  text-align: center;
+  color: rgb(228, 238, 194);
+}
+
+h2,
+h3 {
+  color: rgb(228, 238, 194);
+  margin-top: 3rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.picbody {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.picbodys {
+  padding-left: 1rem;
+  margin-top: -1rem;
+}
+
+.rocket {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.rock {
+  padding-left: 5rem;
+  font-size: 150px;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+#center {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(227, 243, 243);
+  display: flex;
+  flex-flow: column;
+  margin: 1rem;
+}
+
+img {
+  height: 60vh;
+  width: 50%;
+}
+
+.foody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(228, 238, 194);
+}
+
+.foodtitle {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(228, 238, 194);
+}
+
+.contact {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.ctitle {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(228, 238, 194);
+  text-align: center;
+  margin: 1rem;
+}
+
+.item {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(228, 238, 194);
+  text-decoration: black;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+textarea {
+  height: 20vh;
+  width: 60%;
+}
+
+button {
+  color: black;
+  background-color: grey;
+  margin: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  margin-top: -2rem;
+}
+
+.foody {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  margin-top: 1rem;
+}
+.foodtitle {
+  font-size: 40px;
+  color: rgb(228, 238, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.p {
+  font-size: 20px;
+  color: rgb(228, 238, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.datas {
+  font-size: 20px;
+  color: rgb(228, 238, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 0.5rem;
+}
